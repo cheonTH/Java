@@ -1,0 +1,14 @@
+package Ex01_First;
+import java.util.Scanner;
+public class Test_20250319 {
+	// main함수
+	// 파일을 실행하면 main함수 안에 있는 코드가 실행이 됨
+	// main 템플릿 -> main작성 후 ctrl + space
+	public static void main(String[] args) {
+		Scanner scanf = new Scanner(System.in);
+		
+		int a = scanf.nextInt();
+		
+		System.out.println(a);
+	}
+}
