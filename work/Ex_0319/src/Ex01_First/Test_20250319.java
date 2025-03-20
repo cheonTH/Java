@@ -12,7 +12,7 @@ public class Test_20250319 {
 		//XXX: 해당부분이 하드코딩 된 것 같습니다. 수정해야 합니다.
 		//ㄴ>다른 개발자가 알아봐야 할 중요한 이슈 또는 경고		
 		
-		
+		System.out.printf("hello");
 		System.out.println("Hello, World");
 	}
 }
