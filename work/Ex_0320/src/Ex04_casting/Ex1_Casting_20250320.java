@@ -14,7 +14,8 @@ public class Ex1_Casting_20250320 {
 		double numChange = (double)11;
 		
 		System.out.println("num의 값: "+ num + " num2의 값: " + num2 + " numChange의 값: " + numChange);
-		
+		System.out.println("변경전");
+		System.out.println((int)1.23);
 		
 	}
 }
