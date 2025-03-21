@@ -71,7 +71,7 @@ public class Ex2_do_while_20250321 {
 				System.out.println("각 점수는 40점 이상이어야 합니다.");
 				check = true;
 			}
-		}while(check == true);
+		}while(check);
 	
 	}
 }
