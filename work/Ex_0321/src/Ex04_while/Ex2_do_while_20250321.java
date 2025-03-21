@@ -64,13 +64,9 @@ public class Ex2_do_while_20250321 {
 			System.out.print("영어:  ");
 			int eng = scanf.nextInt();
 			
-			if(kor >= 40) {
-				if(math >= 40) {
-					if(eng >= 40) {
-						System.out.printf("국어: %d 수학: %d 영어: %d", kor, math, eng);
-						check = false;
-					}
-				}
+			if(kor >= 40 && math >= 40 && eng >= 40) {
+				System.out.printf("국어: %d 수학: %d 영어: %d", kor, math, eng);
+				check = false;
 			}else {
 				System.out.println("각 점수는 40점 이상이어야 합니다.");
 				check = true;
