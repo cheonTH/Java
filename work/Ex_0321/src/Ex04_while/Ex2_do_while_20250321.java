@@ -33,29 +33,29 @@ public class Ex2_do_while_20250321 {
 	//사용자로 부터 비밀번호를 입력 받아 올바른 비밀번호가 입력 될때 까지 계속 입력
 	//비밀번호는 9486
 		Scanner scanf = new Scanner(System.in);
-//		System.out.print("비밀번호를 입력해주세요");
-//		int pw = scanf.nextInt();
-//		int pw_check;
-//		boolean pw_true = false;
-//		do {
-//			System.out.print("비밀번호를 입력해주세요");
-//			pw_check = scanf.nextInt();
-//			if(pw_check == pw) {
-//				System.out.println("비밀번호 확인 완료!");
-//				pw_true = false;
-//			}else {
-//				System.out.println("비밀번호를 다시 입력해주세요.");
-//				pw_true = true;
-//			}
-//			
-//		}while(pw_true == true);
+		System.out.print("비밀번호를 입력해주세요: ");
+		int pw = scanf.nextInt();
+		int pw_check;
+		boolean pw_true = false;
+		do {
+			System.out.print("비밀번호를 입력해주세요: ");
+			pw_check = scanf.nextInt();
+			if(pw_check == pw) {
+				System.out.println("비밀번호 확인 완료!");
+				pw_true = true;
+			}else {
+				System.out.println("비밀번호를 다시 입력해주세요.");
+				pw_true = false;
+			}
+			
+		}while(pw_true != true);
 		
 		//국어 영어 수학 점수를 입력 받음
 		//단 각 과목은 40점 이상이어야 함
 		//40점 미만일 경우 점수를 다시 입력
 		
 		
-		boolean check = true;
+		boolean check = false;
 		do {
 			System.out.print("국어:  ");
 			int kor = scanf.nextInt();
@@ -64,14 +64,18 @@ public class Ex2_do_while_20250321 {
 			System.out.print("영어:  ");
 			int eng = scanf.nextInt();
 			
-			if(kor >= 40 && math >= 40 && eng >= 40) {
-				System.out.printf("국어: %d 수학: %d 영어: %d", kor, math, eng);
+			
+			if((kor < 0 || math < 0 || eng < 0) || (kor > 100 || math > 100 || eng > 100)){
+				System.out.println("점수는 0~100점 사이를 입력해야 합니다.");
 				check = false;
+			}else if(kor >= 40 && math >= 40 && eng >= 40) {
+				System.out.printf("국어: %d 수학: %d 영어: %d", kor, math, eng);
+				check = true;
 			}else {
 				System.out.println("각 점수는 40점 이상이어야 합니다.");
-				check = true;
+				check = false;
 			}
-		}while(check);
+		}while(check != true);
 	
 	}
 }
