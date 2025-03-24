@@ -89,5 +89,35 @@ public class Ex2_Arrays_20250324 {
 		System.out.println("newCards 배열 : " + Arrays.toString(newCards));
 		System.out.println("newCards2 배열 : " + Arrays.toString(newCards2));
 		System.out.println("newCards3 배열 : " + Arrays.toString(newCards3));
+		
+		//다차원 배열
+		//2차원 이상의 배열을 의미하며, 배열의 요소로 또 다른 배열을 가지는 것을 의미
+		//2차원 배열은 요소로서 1차원 배열을 가짐
+		
+		//int [] [] arr = new int[2차원 배열의 크기][2차원 배열이 갖는 1차원 배열의 크기];
+		
+		int[][] arr_3 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+		
+		System.out.println(arr_3[0][0]);
+		
+		//요소로 들어가는 1차원 배열의 크기를 지정하지 않고 생성할 수 있음
+		int[][] arr_4 = new int[3][];
+		
+		//각 배열의 크기를 각각 선언하여 사용할 수 있음
+		
+		arr_4[0] = new int [2];
+		arr_4[1] = new int [3];
+		arr_4[2] = new int [1];
+		
+		int [][]iArr_2 = new int[2][3];
+		iArr_2[0][0] = 1;
+		iArr_2[0][1] = 2;
+		iArr_2[0][2] = 3;
+		iArr_2[1][0] = 4;
+		iArr_2[1][1] = 5;
+		iArr_2[1][2] = 6;
+		
+		System.out.println(iArr_2[0]);
+		
 	}
 }
