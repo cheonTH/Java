@@ -147,5 +147,21 @@ public class Exam1_20250324 {
 			rand_coin %= coin[i];
 		}
 		
+		//로또번호 출력
+		Random rand1 = new Random();
+		int[] lottoArr = new int[6];
+				
+		for(int i = 0; i < lottoArr.length; i++) {
+			int lotto = rand1.nextInt(45) + 1;
+			lottoArr[i] = lotto;
+					
+			for(int j = 0; j < i; j++) {
+				if(lottoArr[i] == lottoArr[j]) {
+					i--;
+				}
+			}
+			System.out.println("로또번호" + (i + 1) + ": " + lottoArr[i]);
+		}
+		
 	}
 }
