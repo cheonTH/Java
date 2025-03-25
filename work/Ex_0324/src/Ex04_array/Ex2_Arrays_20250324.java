@@ -2,6 +2,7 @@ package Ex04_array;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Random;
 
 public class Ex2_Arrays_20250324 {
 	public static void main(String[] args) {
@@ -118,6 +119,21 @@ public class Ex2_Arrays_20250324 {
 		iArr_2[1][2] = 6;
 		
 		System.out.println(iArr_2[0]);
+		
+		Random rand = new Random();
+		int[] lottoArr = new int[6];
+		
+		for(int i = 0; i < lottoArr.length; i++) {
+			int lotto = rand.nextInt(45) + 1;
+			lottoArr[i] = lotto;
+			
+			for(int j = 0; j < i; j++) {
+				if(lottoArr[i] == lottoArr[j]) {
+					i--;
+				}
+			}
+			System.out.println("로또번호" + (i + 1) + ": " + lottoArr[i]);
+		}
 		
 	}
 }
