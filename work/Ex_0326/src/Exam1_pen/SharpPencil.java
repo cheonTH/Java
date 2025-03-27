@@ -10,16 +10,5 @@ public class SharpPencil extends Pen{
 	public void setWidth(int width) {
 		this.width = width;
 	}
-
-	@Override
-	public int getAmount() {
-		return super.getAmount();
-	}
-
-	@Override
-	public void setAmount(int amount) {
-		super.setAmount(amount);
-	}
-	
 	
 }
