@@ -20,9 +20,14 @@ public class Ex2_Map {
 		System.out.print("PW : ");
 		int pw = scanf.nextInt();
 		
-		if(id != map.containsKey("kim")) {
-			
+		if(map.containsKey(id) == false) {
+			System.out.println("아이디가 존재하지 않습니다");
+		}else if(map.containsValue(pw) == false) {
+				System.out.println("비밀번호 불일치");
+		}else {
+			System.out.println("로그인 성공");
 		}
+		
 		
 	}
 }
