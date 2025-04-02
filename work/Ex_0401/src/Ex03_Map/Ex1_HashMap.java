@@ -1,6 +1,9 @@
 package Ex03_Map;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class Ex1_HashMap {
 	public static void main(String[] args) {
@@ -50,5 +53,22 @@ public class Ex1_HashMap {
 		//containsValue(V v)
 		//map 안에 value가 존재하면 true 없으면 false
 		
+		
+		//entrySet()
+		//하나의 key-value쌍을 하나의 entry로 반환
+		//ㄴ>key와 value를 동시에 다루고 싶을 때 효율적
+		//Set<Map.Entry<K, V>>
+		
+		Iterator<Map.Entry<String, Double>> iter3 = map2.entrySet().iterator();
+		
+		//Entry
+		//HashMap 내부에서 key-value쌍 하나를 표현할 수 있는 객체
+		while(iter3.hasNext()) {
+			Entry<String, Double> entry = iter3.next();
+			System.out.println("key : " + entry.getKey() + ", value : " + entry.getValue());
+		}
+		
+		//keySet() -> 모든 키를 Set으로 변환
+		//values()
 	}
 }
