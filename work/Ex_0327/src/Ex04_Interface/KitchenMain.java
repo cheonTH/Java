@@ -2,10 +2,16 @@ package Ex04_Interface;
 
 public class KitchenMain {
 	public static void main(String[] args) {
+		//인터페이스는 객체를 직접생성할 수 없음
+		//인터페이스를 구현한 클래스의 객체를 생성함
+		
 		Kitchen k = new Kitchen();
 		System.out.println("자장면: " + k.jajang());
 		System.out.println("짬뽕: " + k.JJamBBong());
 		
+		
+		//부모 타입으로 자동 타입변환을 할 수 있음
+		//부모타입으로부터 만들어진 메서드만 사용할 수 있음
 		Menu1 m1 = new Kitchen();
 		
 		System.out.println("자장면: " + m1.jajang());
