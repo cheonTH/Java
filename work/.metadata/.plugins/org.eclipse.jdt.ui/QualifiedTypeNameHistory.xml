@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Ex06_List.MenuItem"/>
-    <fullyQualifiedTypeName name="ArrayList_Exam.PersonFunction"/>
-    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -57,7 +53,11 @@
     <fullyQualifiedTypeName name="Ex01_Stream.Student"/>
     <fullyQualifiedTypeName name="Ex02_Thread.ThreadTest"/>
     <fullyQualifiedTypeName name="Ex02_Thread.RunnableTest"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="Ex02_Thread.ThreadName"/>
+    <fullyQualifiedTypeName name="Ex01_ThreadMethod.SleepThread"/>
+    <fullyQualifiedTypeName name="Ex01_ThreadMethod.JoinExample"/>
+    <fullyQualifiedTypeName name="Ex01_ThreadMethod.YieldExample"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="Ex02_Synchronized.SynchronizedEx"/>
 </qualifiedTypeNameHistroy>
