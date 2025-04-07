@@ -40,6 +40,7 @@ public class Ex2_Stream {
 			.sorted()
 			.forEach(System.out::println);
 		System.out.println("---------------");
+		//sorted() 오름차순 정렬 ()안에 기준을 넣어줄 수있음
 		
 		//limit()
 		Stream.of(1,2,3,4,5)

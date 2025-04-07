@@ -4,8 +4,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalDouble;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Ex3_Stream {
@@ -63,6 +65,8 @@ public class Ex3_Stream {
 		System.out.println("allLong: "+allLong);
 		System.out.println("----------------");
 		
+		//7-1 noneMatch(조건)
+		
 		//8. reduce()
 		//스트림 요소를 누적해서 하나의 값으로 줄임 (합계, 곱, 문자열 결함 등)
 		//T result = stream.reduce(identity, accumulator);
@@ -74,7 +78,14 @@ public class Ex3_Stream {
 		int sum = list.stream().reduce(0, (a,b) -> a+b);
 		System.out.println("list의 모든 요소의 총 합 : " + sum);
 		
+		//IntStream과 같은 기본형 스트림에는 스트림의 요소들에 대한 통계정보를 얻을 수 있는 메서드들이 있음
+		//sum()
+		int sum2 = IntStream.of(1,2,3,4,5).sum();
 		
+		OptionalDouble res = IntStream.of(1,2,3,4,5).average();
+		System.out.println(res.getAsDouble());
+		
+		IntStream.of(1,2,3,4,5).min();
 		
 	}
 }
