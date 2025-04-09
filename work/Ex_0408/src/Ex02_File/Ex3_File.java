@@ -21,5 +21,7 @@ public class Ex3_File {
 		
 		//내용을 읽거나 쓰는 기능은 없음
 		
+		//createNewFile(): 새로운 파일을 생성
+		
 	}
 }
