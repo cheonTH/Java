@@ -11,6 +11,9 @@ import java.lang.annotation.Target;
 //어노테이션이 적용될 시간
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestInfo {
+	String name();
+	int career() default 1;
+	String[] skills();
 	//어노테이션의 속성은 메서드 형태로 정의함
 	
 	

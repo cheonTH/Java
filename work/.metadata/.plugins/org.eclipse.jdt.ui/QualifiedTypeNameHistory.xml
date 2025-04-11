@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.OptionalInt"/>
-    <fullyQualifiedTypeName name="java.util.OptionalDouble"/>
-    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="Ex01_Stream.Student"/>
-    <fullyQualifiedTypeName name="Ex02_Thread.ThreadTest"/>
-    <fullyQualifiedTypeName name="Ex02_Thread.RunnableTest"/>
-    <fullyQualifiedTypeName name="Ex02_Thread.ThreadName"/>
-    <fullyQualifiedTypeName name="Ex01_ThreadMethod.SleepThread"/>
-    <fullyQualifiedTypeName name="Ex01_ThreadMethod.JoinExample"/>
-    <fullyQualifiedTypeName name="Ex01_ThreadMethod.YieldExample"/>
-    <fullyQualifiedTypeName name="java.lang.Class"/>
-    <fullyQualifiedTypeName name="Ex02_Synchronized.SynchronizedEx"/>
     <fullyQualifiedTypeName name="Ex02_Synchronized.Counter"/>
     <fullyQualifiedTypeName name="Ex01_Thread.Storage"/>
     <fullyQualifiedTypeName name="Ex01_Thread.AddStackThread"/>
@@ -53,11 +37,27 @@
     <fullyQualifiedTypeName name="Ex06_Annotation.testInter"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Deprecated"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
     <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
     <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+    <fullyQualifiedTypeName name="Ex06_Annotation.Ex2_Annotation"/>
+    <fullyQualifiedTypeName name="Ex06_Annotation.TestInfo"/>
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="Ex02_DB.EmpMethod"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="Ex02_DB.DBUtil"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Ex02_DB.Person"/>
+    <fullyQualifiedTypeName name="Ex02_DB.PersonMethod"/>
 </qualifiedTypeNameHistroy>
