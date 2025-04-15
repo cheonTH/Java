@@ -23,7 +23,7 @@ public class Ex2_Map {
 		if(!map.containsKey(id)) {
 			System.out.println("아이디가 존재하지 않습니다");
 		}else {
-			if(map.get(id) == pw) {
+			if(map.get(id).equals(pw)) {
 				System.out.println("로그인 성공");
 			}else {
 				System.out.println("비밀번호 불일치");

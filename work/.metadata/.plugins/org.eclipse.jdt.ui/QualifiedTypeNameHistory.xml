@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Ex02_Synchronized.Counter"/>
     <fullyQualifiedTypeName name="Ex01_Thread.Storage"/>
     <fullyQualifiedTypeName name="Ex01_Thread.AddStackThread"/>
     <fullyQualifiedTypeName name="Ex01_Thread.PopStackThread"/>
@@ -33,7 +32,6 @@
     <fullyQualifiedTypeName name="Ex05_enum.Operation"/>
     <fullyQualifiedTypeName name="Ex05_enum.OrderStatus"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="Ex06_Annotation.testInter"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Ex02_DB.Person"/>
     <fullyQualifiedTypeName name="Ex02_DB.PersonMethod"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
 </qualifiedTypeNameHistroy>

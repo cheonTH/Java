@@ -3,6 +3,7 @@ package Ex01_Lamda;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 class P_lamda{
@@ -39,5 +40,6 @@ public class Exam1 {
 		List<Integer> list = p.filter(numbers, all);
 		
 		System.out.println(list);
+		
 	}
 }
